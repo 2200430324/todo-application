@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrl: "./app.component.scss"
 })
-export class AppComponent {
-  title = 'weather_application';
+
+export class AppComponent  {
+  title = "weather_application";
 }
